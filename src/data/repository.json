@@ -1,0 +1,34 @@
+[
+  {
+    "author": "Emanuele Correa",
+    "name": "Coffe Delivry",
+    "url": "https://coffe-delivery-six.vercel.app/",
+    "repository": "https://github.com/manuncorrea/coffe-delivery",
+    "photo": "https://raw.githubusercontent.com/manuncorrea/coffe-delivery/master/public/header.png"
+  },
+
+  {
+    "author": "Emanuele Correa",
+    "name": "Github Blog",
+    "url": "https://github-blog-ten.vercel.app/",
+    "repository": "https://github.com/manuncorrea/github-blog",
+    "photo": "https://raw.githubusercontent.com/manuncorrea/github-blog/master/public/header.png"
+  },
+
+  {
+    "author": "Emanuele Correa",
+    "name": "todo",
+    "url": "https://to-do-list-wine-five.vercel.app/",
+    "repository": "https://github.com/manuncorrea/to-do-list",
+    "photo": "https://raw.githubusercontent.com/manuncorrea/to-do-list/master/public/to-do-list.png"
+  },
+
+  {
+    "author": "Emanuele Correa",
+    "name": "Star Wars",
+    "url": "https://star-wars-6obkfbak0-manuncorrea.vercel.app/",
+    "repository": "https://github.com/manuncorrea/star-wars",
+    "photo": "https://raw.githubusercontent.com/manuncorrea/star-wars/master/public/header.png"
+  }
+  
+]
