@@ -1,20 +1,19 @@
 import React from 'react';
 import { GrGithub, GrLinkedin } from 'react-icons/gr';
 import { FaWhatsapp, FaArrowUp } from 'react-icons/fa'
+import { IDComponents } from '@/types/IDComponents';
+import Title from '../Title';
 
-export default function Contact(){
+export default function Contact({ id }: IDComponents){
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return(
     <>
-      <div className="w-full p-14">
+      <div id={id} className="w-full p-14">
         <div id="contato" className="container mx-auto">
-          <div className="text-center text-white title mb-4">
-            <h1>Contato</h1>
-            <span className="block border-t-2 border-accent w-16 mx-auto mb-2"></span>
-          </div>
+          <Title name="Contatos" />
           <div className="flex justify-center items-center space-x-4">
             <a href="https://github.com/manuncorrea" target="_blank" rel="noreferrer" className="p-2 bg-purple-500 rounded-full hover:bg-secondary transition-colors">
               <GrGithub className="text-primary hover:text-white" size={24} />

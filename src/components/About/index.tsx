@@ -4,10 +4,11 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import ProfolieImage from '../../../public/profolie.png';
 import TypingEffect from "../TypingEffect";
 import DownloadButton from "../DownloadButton";
+import { IDComponents } from "@/types/IDComponents";
 
-export default function About() {
+export default function About({ id }: IDComponents) {
  return (
-  <div className="mt-8 mb-6 flex flex-col md:flex-row items-center justify-between w-full">
+  <div id={id} className="mt-8 mb-10 flex flex-col md:flex-row items-center justify-between w-full ">
     <div className="flex flex-row md:flex-col gap-2 items-center text-purple-500 mb-4 md:mb-0 justify-center md:justify-start">
       <Link target="_blank" href="https://github.com/manuncorrea">
         <FiGithub size={20} className="md:text-xl" />
