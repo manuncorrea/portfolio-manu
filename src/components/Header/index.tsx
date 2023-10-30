@@ -34,7 +34,7 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-transparent">
+    <nav className="bg-white border-gray-200 dark:bg-transparent relative">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center">
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Emanuele Correa</span>
@@ -52,8 +52,9 @@ export default function Header() {
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button>
-        <div className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full w-full md:relative md:block md:w-auto`} id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
+        <div className={`${isMenuOpen ? 'block' : 'hidden'} absolute top-full left-0 w-full md:relative md:block md:w-auto`} id="navbar-default">
+      <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-transparent md:dark:bg-transparent dark:border-gray-700">
+
           <li>
             <a href="#about" className="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded md:bg-transparent md:text-purple-500 md:p-0 dark:text-white md:dark:text-purple-500" aria-current="page">Sobre</a>
           </li>
