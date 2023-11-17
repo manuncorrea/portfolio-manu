@@ -6,8 +6,6 @@ import Projects from '@/components/Projects'
 import Contact from '@/components/Contact'
 import Head from 'next/head'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
   return (
     <>
