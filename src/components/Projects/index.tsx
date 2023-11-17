@@ -20,7 +20,7 @@ export default function Projects({ id }: IDComponents) {
                     <a href={project.url} target="_blank" rel="noopener noreferrer" className="bg-purple-500 px-4 py-2 rounded text-white font-semibold border border-transparent hover:border-white">Visitar</a>
                   </div>
                   <Link href={`/projects/${project.id}`} legacyBehavior>
-                    <a className="mt-2 sm:mt-0 bg-purple-500 px-4 py-2 rounded text-white font-semibold border border-transparent hover:bg-purple-600 transition duration-300 ease-in-out transform hover:-translate-y-1 cursor-pointer">Ver Detalhes</a>
+                    <a className="mt-2 sm:mt-0 bg-transparent px-4 py-2 rounded text-white font-semibold border border-purple-500 hover:bg-purple-600 transition duration-300 ease-in-out transform hover:-translate-y-1 cursor-pointer">Ver Detalhes</a>
                   </Link>
                 </div>
               </section>
